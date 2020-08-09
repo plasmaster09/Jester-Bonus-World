@@ -208,8 +208,8 @@ if (self.level == 1){
     Rules.substitute("Subdivide", "Spooplicate");
     Rules.substitute("Duplicate+", "Spooplicate+");
     Rules.substitute("Subdivide+", "Spooplicate+");
-	for(x in ["Vise Grip", "Spatulasword", "Lollipop", "Table Slam", "Nudge", "Spatula", "Cauldron", "Bump"]){
-	  choice = rand(["Vise Grip", "Lollipop", "Table Slam", "Grudgenudge", "Spatula", "Cauldron", "Bump in the Night"]);
+	for(x in ["Spatulasword", "Nudge", "Bump"]){
+	  choice = rand(["Lollipop", "Grudgenudge", "Bump in the Night"]);
 	  Rules.substitute(x, choice);
 	  Rules.substitute(x + "+", choice + "+");
 	}
