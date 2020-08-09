@@ -1,0 +1,5 @@
+Boosterpack:Boolin Key,Jack o' Lantern,Jack o' Lantern
+Boosterpack:Banish,Hitodama,Hitodama
+Boosterpack:Soul Fade,Spectral Strike,Spectral Strike
+Boosterpack:Exorcise,Blurse,Blurse
+Boosterpack:Wispene Gas,Pester,Pester

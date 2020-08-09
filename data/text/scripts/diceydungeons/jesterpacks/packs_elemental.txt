@@ -1,0 +1,6 @@
+Boosterpack:Ice Shatter,Snowflake,Snowflake
+Boosterpack:Flame Blast,Spark,Spark
+Boosterpack:High Voltage,Buzzer,Buzzer
+Boosterpack:Hammer,High Voltage,High Voltage
+Boosterpack:Whip,Flame Blast,Flame Blast
+Boosterpack:Lament,Ice Shatter,Ice Shatter
