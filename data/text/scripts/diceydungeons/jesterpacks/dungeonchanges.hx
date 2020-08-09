@@ -201,8 +201,7 @@ if (self.level == 1){
     leveluprewards(2, "", loadtext("diceydungeons/jesterpacks/packs_bonusround"), 2);
   }
   if (levelupselections.indexOf("InitialEquipment:Spooky Deck") > -1){
-    var swap = -1;
-	Rules.enemyhpadjust = 1.4;
+	Rules.enemyhpadjust = 1.25;
 	leveluprewards(2, "", loadtext("diceydungeons/jesterpacks/packs_spooky"), 2);
 	Rules.substitute("Duplicate", "Spooplicate");
     Rules.substitute("Subdivide", "Spooplicate");
@@ -225,11 +224,6 @@ if (self.level == 1){
 	}
 	Rules.substitute("Scathach", "Pumpkin Spice");
 	Rules.substitute("Fireman", "Demon");
-	Rules.substitute("Loud Bird", "Mummy");
-  }
-  if (levelupselections.indexOf("InitialEquipment:Spooky Deck") <= -1){
-	Rules.substitute("Pumpkin Spice", "Scathach");
-	Rules.substitute("Demon", "Fireman");
-	Rules.substitute("Mummy", "Loud Bird");
+	Rules.substitute("Crystalina", "Mummy");
   }
 }
