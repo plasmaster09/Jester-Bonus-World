@@ -2,7 +2,6 @@
 <!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
 <!-- $TexturePacker:SmartUpdate:dbf084dc18256c2e53f928fc2b9e84bb:1cf219b9fae40e550dd6a38dad5b638a:a20c72795d792e1b9d55d1c311ad142d$ -->
 <TextureAtlas imagePath="betterbrjester_overworld_sprites_1080.png" width="1020" height="1264">
-    <SubTexture name="apple" x="112" y="1143" width="123" height="120"/>
     <SubTexture name="enemies/halloweenspecial_babysquid_01" x="921" y="1116" width="96" height="144"/>
     <SubTexture name="enemies/halloweenspecial_babysquid_02" x="488" y="1085" rotated="true" width="139" height="96" frameX="0" frameY="-5" frameWidth="96" frameHeight="144"/>
     <SubTexture name="enemies/halloweenspecial_banshee_01" x="839" y="842" rotated="true" width="152" height="139" frameX="-2" frameY="0" frameWidth="143" frameHeight="152"/>
