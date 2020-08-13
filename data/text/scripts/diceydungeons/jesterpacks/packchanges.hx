@@ -106,7 +106,7 @@ if (levelupselections.indexOf("boosterpack:Call for Backup Thief?,Pickpocket,Pic
 
 if (levelupselections.indexOf("boosterpack:Poison Needle,Lockpick,Lockpick") > -1){ 
   Rules.substitute("Backfire", "Detonator"); 
-  Rules.substitute("Bop,Bop,Bop", rand(["Poison Needle,Detonator,Poison Needle", "Toxic Ooze,Spatula,Toxic Ooze", "Subdivide,Poison Needle,Subdivide"]));
+  Rules.substitute("Bop,Bop,Bop", rand(["Poison Needle,Detonator,Poison Needle", "Spatula,Toxic Ooze,Spatula", "Subdivide,Poison Needle,Subdivide"]));
 }
 
 if (levelupselections.indexOf("boosterpack:Six Shooter,Spatula,Spatula") > -1){ 
@@ -114,9 +114,9 @@ if (levelupselections.indexOf("boosterpack:Six Shooter,Spatula,Spatula") > -1){
   Rules.substitute("Bop,Bop,Bop", rand(["Doppeldice,Bump,Doppeldice", "Wrecking Ball,Midnight Charm,Wrecking Ball", "Candy,Six Shooter,Candy"]));
 }
 
-if (levelupselections.indexOf("boosterpack:Blender,Poison Needle,Poison Needle") > -1){ 
-  Rules.substitute("Backfire", "Blender"); 
-  Rules.substitute("Bop,Bop,Bop", rand(["Hacksaw,Detonator,Hacksaw", "Toxic Ooze,Detonator,Toxic Ooze", "Subdivide,Toxic Ooze,Subdivide"]));
+if (levelupselections.indexOf("boosterpack:Grater,Poison Needle,Poison Needle") > -1){ 
+  Rules.substitute("Backfire", "Grater"); 
+  Rules.substitute("Bop,Bop,Bop", rand(["Hacksaw,Detonator,Hacksaw", "Poison Jab,Detonator,Poison Jab", "Subdivide,Toxic Ooze,Subdivide"]));
 }
 
 if (levelupselections.indexOf("boosterpack:Boolin Key,Jack o' Lantern,Jack o' Lantern") > -1){ 
