@@ -32,27 +32,6 @@ if (self.level == 1){
 	for(x in ["poison","fire","ice","shock","thorns","fury","lock","blind","confuse","weaken","silence","shield","dodge","survive","reequipnext","reduce","dice_trigger_1","dice_trigger_2","dice_trigger_3","dice_trigger_4","dice_trigger_5","dice_trigger_6","counter_1","counter_2","counter_3","counter_4","counter_5","counter_6","curse"]){
 	  Rules.setalternate(x);
 	}
-	for (offers in Remix.offeronfloor){
-	  if (offers.length > 0){
-	    for (i in 0...offers.length){
-	      if (offers[i] == "Yeti"){
-		    offers[i] = "Yeti?";
-		  }
-		  if (offers[i] == "Warlock"){
-		    offers[i] = "Warlock?";
-		  }
-		  if (offers[i] == "Banshee"){
-		    offers[i] = "Banshee?";
-		  }
-		  if (offers[i] == "Wicker Man"){
-		    offers[i] = "Wicker Man?";
-		  }
-		  if (offers[i] == "Gardener"){
-		    offers[i] = "Gardener?";
-		  }
-		}
-	  }
-	}
 	leveluprewards(2, "", loadtext("diceydungeons/jesterpacks/packs_paralleluniverse"), 2);
 	Rules.substitute("Duplicate", "Subdivide");
 	Rules.substitute("Duplicate+", "Subdivide+");
@@ -92,24 +71,6 @@ if (self.level == 1){
   
   if (levelupselections.indexOf("InitialEquipment:MegaQuest Deck") > -1){
     Rules.substitute("Call for Backup Warrior", "Call for Backup " + rand(["Thief", "Robot", "Witch", "Inventor", "Thief?", "Robot?", "Witch?", "Inventor?"]));
-    for (offers in Remix.offeronfloor){
-	  if (offers.length > 0){
-	    for (i in 0...offers.length){
-		  for (x in ["Wolf Puppy","Sorceress","Drake","Scathach","Loud Bird","Buster","Snowman","Fireman","Singer","Vacuum","Sticky Hands","Mimic","Baby Squid","Haunted Jar","Paper Knight","Robobot","Dire Wolf","Banshee","Madison","Bully","Skeleton","Cornelius","Cowboy","Handyman","Wizard","Warlock","Alchemist","Space Marine","Bounty Hunter","Rose","Cactus","Slime","Wisp","Sneezy","Rat King","Kraken","Hothead","Pirate","Rotten Apple","Stereohead","Keymaster","Aurora","Dryad","Gargoyle","Crystalina","Rhino Beetle","Yeti","Gardener","Wicker Man","Aoife","Audrey","Beatrice"]){
-	        if (offers[i] == x){
-		      offers[i] = offers[i] + " ";
-			  random = rand[1...100];
-			  if(random <= 5){
-			    offers[i] = rand(["Magician ", "Copycat "]);
-			  }
-		    }
-		  }
-		  if (offers[i] == "Frog"){
-		  offers[i] = "Marshmallow ";
-		  }
-		}
-	  }
-	}
 	leveluprewards(2, "", loadtext("diceydungeons/jesterpacks/packs_megaquest"), 2);
 	Rules.substitute("Gumball Machine", "Juggling Ball");
 	Rules.substitute("Gumball Machine+", "Juggling Ball+");
@@ -198,7 +159,8 @@ if (self.level == 1){
 	Rules.substitute("Call for Backup Warrior", "Call for Backup " + rand(["Thief", "Robot", "Witch", "Inventor", "Thief?", "Robot?", "Witch?", "Inventor?"]));
   }
   if (levelupselections.indexOf("InitialEquipment:Thief Deck") > -1){
-    Rules.substitute("Call for Backup Warrior", "Call for Backup " + rand(["Thief", "Robot", "Witch", "Inventor", "Thief?", "Robot?", "Witch?", "Inventor?"]));
+    Rules.enemyhpadjust = 1.25;
+	Rules.substitute("Call for Backup Warrior", "Call for Backup " + rand(["Thief", "Robot", "Witch", "Inventor", "Thief?", "Robot?", "Witch?", "Inventor?"]));
     leveluprewards(2, "", loadtext("diceydungeons/jesterpacks/packs_thief"), 2);
 	for(x in ["Vise Grip", "Spatulasword", "Lollipop", "Nudge", "Spatula", "Cauldron", "Bump"]){
 	  choice = rand(["Paper Lantern", "Lantern", "Tetraphobia", "Chisel", "Lucky 7", "Grater", "Doppeltwice", "Ungeradedice", "Square Pair", "Lockpick", "Spatula"]);
@@ -221,8 +183,27 @@ if (self.level == 1){
 	Rules.substitute("Gumball Machine+", "Thick Skin+");
   }
   if (levelupselections.indexOf("InitialEquipment:Random Deck") > -1){
-    leveluprewards(2, "", loadtext("diceydungeons/jesterpacks/packs_bonusround"), 2);
-	Rules.substitute("Call for Backup Warrior", "Call for Backup " + rand(["Robot", "Inventor", "Inventor?"]));
+    leveluprewards(2, "", loadtext("diceydungeons/jesterpacks/packs_random"), 2);
+	leveluprewards(3, "erase");
+	leveluprewards(3, "Dice");
+	leveluprewards(4, "erase");
+	leveluprewards(4, loadtext("diceydungeons/jesterpacks/packs_random"), 2);
+	leveluprewards(5, "erase");
+	leveluprewards(5, loadtext("diceydungeons/jesterpacks/packs_random"), 2);
+	leveluprewards(6, "erase");
+	leveluprewards(6, "Dice");
+	Rules.substitute("Juggling Ball", "Call for Backup Inventor?");
+	Rules.substitute("Gumball Machine", "Call for Backup Inventor?");
+	Rules.substitute("Juggling Ball+", "Heroic Inventor?");
+	Rules.substitute("Gumball Machine+", "Heroic Inventor?");
+	for(x in ["Vise Grip", "Spatulasword", "Table Slam", "Lollipop", "Nudge", "Spatula", "Bump", "Cauldron", "Shadow Dice", "Mirror Shard", "Blood Let", "Illuminate", "Hall of Mirrors"]){
+	  Rules.substitute(x, "Call for Backup Inventor?");
+	  Rules.substitute(x + "+", "Heroic Inventor?");
+	}
+	for(x in ["Gumball Machine", "Kapow", "Boxing Gloves", "Rusty Sword", "Telephone", "Missing Score", "Elastic Heart", "Juggling Ball", "Boop", "Shovel", "Lament", "Whip", "Hammer", "Blood Suck"]){
+	  Rules.substitute(x, "Call for Backup Robot");
+	  Rules.substitute(x + "+", "Heroic Robot");
+	}
   }
   if (levelupselections.indexOf("InitialEquipment:Spooky Deck") > -1){
 	for (offers in Remix.offeronfloor){
@@ -266,6 +247,5 @@ if (self.level == 1){
 	Rules.substitute("Scathach", "Pumpkin Spice");
 	Rules.substitute("Fireman", "Demon");
 	Rules.substitute("Crystalina", "Mummy");
-	self.level = 1;
   }
 }
