@@ -1,0 +1,3 @@
+Boosterpack:Blender,Feather Arrow,Feather Arrow
+Boosterpack:Rainbow Crystal,Healing Crystal,Healing Crystal
+Boosterpack:Lojinx,Creep,Creep

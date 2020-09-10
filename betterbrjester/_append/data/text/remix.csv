@@ -1,0 +1,4 @@
+Name,Description,Image,ImageOffset,Rule Change,Apply On Continue
+Demon,Everyone starts each turn with [fury]Fury[;] but|it only works 50% of the time.,halloweenspecial_devil,-20|0,Rules.addplayerinnatestatus(~spookyfury~[;] 1[;] false); Rules.addenemyinnatestatus(~spookyfury~[;] 1[;] false); ,YES
+Mummy,Enemies get 50% extra health[;]|but so do you.,halloweenspecial_muumy,5|-15,Rules.enemyhpadjust = 1.5; Rules.hpchangeonlevelup = 6; if (self.getvar(~mummy_applied~) != 1) {self.hp *= 1.5; self.maxhp *= 1.5; self.setvar(~mummy_applied~[;] 1);},YES
+Pumpkin Spice,All status effects are doubled.,halloweenspecial_pumpkinspice,-25|-15,Rules.overload = true;,YES

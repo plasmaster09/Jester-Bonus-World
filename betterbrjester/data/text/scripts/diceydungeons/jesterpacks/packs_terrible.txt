@@ -1,0 +1,8 @@
+Boosterpack:Whyjinx,Slapstick,Slapstick
+Boosterpack:Falling Skull,Raspy Laugh,Raspy Laugh
+Boosterpack:Oof Oof Oof,Ruff Ruff Rage,Ruff Ruff Rage
+Boosterpack:Ice Splatter,Sleet Clump,Sleet Clump
+Boosterpack:Blame Blast,Flicker,Flicker
+Boosterpack:Deton'tor,Duotoxin,Duotoxin
+Boosterpack:Low Voltage,Zapper,Zapper
+Boosterpack:Shielded Bash,Double Guard,Double Guard
