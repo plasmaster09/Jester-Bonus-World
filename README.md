@@ -34,10 +34,10 @@ Patient*- like Jester episode 3 in AngelMoon's mod Cosmic Variations (everything
 
 Thief- it's an ordinary day for an ordinary thief. Problem is, you're a jester.
 
-Random^- absolute random-card-copying chaos that needs to be seen to be believed.
+Random- absolute random-card-copying chaos that needs to be seen to be believed.
 
-Spooky*- inspired by the official Halloween Special mod, focuses on "spooky" statuses like Haunt.
+Spooky*^- inspired by the official Halloween Special mod, focuses on "spooky" statuses like Haunt.
 
 *Has a unique rule change.
 
-^Has the standard Bonus Round item pools and whatnot. Will be changed eventually.
+^Is composed entirely or almost entirely of brand-new cards made by yours truly!
