@@ -69,7 +69,7 @@ if (self.level == 1){
   }
   
   if (levelupselections.indexOf("InitialEquipment:MegaQuest Deck") > -1){
-    Rules.substitute("Call for Backup Warrior", "Call for Backup " + rand(["Thief", "Robot", "Witch", "Inventor", "Thief?", "Robot?", "Witch?", "Inventor?"]));
+	Rules.substitute("Call for Backup Warrior", "Call for Backup " + rand(["Thief", "Robot", "Witch", "Inventor", "Thief?", "Robot?", "Witch?", "Inventor?"]));
 	leveluprewards(2, "", loadtext("diceydungeons/jesterpacks/packs_megaquest"), 2);
 	Rules.substitute("Gumball Machine", "Juggling Ball");
 	Rules.substitute("Gumball Machine+", "Juggling Ball+");
@@ -82,9 +82,8 @@ if (self.level == 1){
 	  Rules.substitute(x, choice);
 	  Rules.substitute(x + "+", choice + "+");
 	}
-	for(x in ["Kapow", "Boxing Gloves", "Rusty Sword", "Telephone", "Missing Score", "Elastic Heart", "Boop", "Shovel", "Lament", "Whip", "Hammer", "Blood Suck"]){
+	for(x in ["Kapow", "Boxing Gloves", "Rusty Sword", "Telephone", "Missing Score", "Elastic Heart", "Boop"]){
 	  choiceset = ["Pew", "Shovel", "Lament", "Whip", "Hammer", "Lightsaber", "Blood Suck", "Shield of Cthulhu"];
-	  for(i in 0...choiceset.length){if(choiceset[i] == x){choiceset.remove(x);}}
 	  choice = rand(choiceset);
 	  Rules.substitute(x, choice);
 	  Rules.substitute(x + "+", choice + "+");
@@ -99,16 +98,15 @@ if (self.level == 1){
   if (levelupselections.indexOf("InitialEquipment:Alt Timeline Deck") > -1){
     Rules.substitute("Call for Backup Warrior", "Call for Backup " + rand(["Thief", "Robot", "Witch", "Inventor", "Thief?", "Robot?", "Witch?", "Inventor?"]));
     leveluprewards(2, "", loadtext("diceydungeons/jesterpacks/packs_bonusround"), 2);
-	Rules.substitute("Gumball Machine+", "Juggling Ball+");
-	Rules.substitute("Gumball Machine", "Juggling Ball");
+	Rules.substitute("Gumball Machine+", "Spinning Ball+");
+	Rules.substitute("Gumball Machine", "Spinning Ball");
 	for(x in ["Vise Grip", "Spatulasword", "Lollipop", "Table Slam", "Nudge", "Spatula", "Cauldron", "Bump"]){
-	  choice = rand(["Chute", "Ladder", "Shiny Cauldron", "Rusty Cauldron", "Ladder"]);
+	  choice = rand(["Chute", "Spatula", "Ladder", "Shiny Cauldron", "Rusty Cauldron", "Ladder"]);
 	  Rules.substitute(x, choice);
 	  Rules.substitute(x + "+", choice + "+");
 	}
-	for(x in ["Kapow", "Boxing Gloves", "Rusty Sword", "Telephone", "Missing Score", "Elastic Heart", "Boop", "Shovel", "Lament", "Whip", "Hammer", "Blood Suck"]){
-	  choiceset = ["Bang", "Shovel", "Lament", "Whip", "H4mm3r", "Blood Suck"];
-	  for(i in 0...choiceset.length){if(choiceset[i] == x){choiceset.remove(x);}}
+	for(x in ["Kapow", "Boxing Gloves", "Rusty Sword", "Telephone", "Missing Score", "Elastic Heart", "Boop", "Hammer"]){
+	  choiceset = ["Spinning Ball", "Bang", "Trench Shovel", "Mourn", "Whip Crack", "H4mm3r", "Blood Suck"];
 	  choice = rand(choiceset);
 	  Rules.substitute(x, choice);
 	  Rules.substitute(x + "+", choice + "+");
@@ -131,15 +129,14 @@ if (self.level == 1){
     leveluprewards(3, "", loadtext("diceydungeons/jesterpacks/packs_cv2"), 3);
     leveluprewards(6, "", loadtext("diceydungeons/jesterpacks/packs_cv3"), 6);
 	for(x in ["Vise Grip", "Spatulasword", "Lollipop", "Table Slam", "Nudge", "Spatula", "Cauldron", "Bump"]){
-	  choiceset = ["Nudge", "Spatula", "Cauldron", "Bump", "Vise Grip", "Spatulasword", "Table Slam", "Lollipop", "Gemini Geometry"];
-	  for(i in 0...choiceset.length){if(choiceset[i] == x){choiceset.remove(x);}}
-	  choice = rand(choiceset);
-	  Rules.substitute(x, choice);
-	  Rules.substitute(x + "+", choice + "+");
+	  choice = ["Gemini Geometry"];
+	  if(rand([0|1|2|3]) == 0){
+		Rules.substitute(x, choice);
+		Rules.substitute(x + "+", choice + "+");
+	  }
 	}
-	for(x in ["Kapow", "Boxing Gloves", "Rusty Sword", "Telephone", "Missing Score", "Elastic Heart", "Boop", "Shovel", "Lament", "Whip", "Hammer", "Blood Suck"]){
+	for(x in ["Boxing Gloves", "Rusty Sword", "Elastic Heart", "Boop", "Shovel", "Lament", "Whip", "Hammer", "Blood Suck"]){
 	  choiceset = ["Kapow", "Telephone", "Missing Score"];
-	  for(i in 0...choiceset.length){if(choiceset[i] == x){choiceset.remove(x);}}
 	  choice = rand(choiceset);
 	  Rules.substitute(x, choice);
 	  Rules.substitute(x + "+", choice + "+");
@@ -156,8 +153,8 @@ if (self.level == 1){
   if (levelupselections.indexOf("InitialEquipment:Terrible Deck") > -1){
     leveluprewards(2, "", loadtext("diceydungeons/jesterpacks/packs_terrible"), 2);
 	Rules.substitute("Call for Backup Warrior", "Call for Backup " + rand(["Thief", "Robot", "Witch", "Inventor", "Thief?", "Robot?", "Witch?", "Inventor?"]));
-	var goodset = ["Juggling Ball", "Gumball Machine", "Vise Grip", "Spatulasword", "Lollipop", "Table Slam", "Nudge", "Spatula", "Bump", "Cauldron", "Boxing Gloves", "Rusty Sword", "Telephone", "Missing Score", "Elastic Heart", "Shovel", "Lament", "Whip", "Hammer", "Blood Suck", "Shadow Dice", "Mirror Shard", "Blood Let", "Illuminate", "Hall of Mirrors"];
-	var badset = ["Smuggling Ball", "Stuck Gumball", "Vide Grip", "Spatulatesword", "Lollitwop", "Table Scam", "Fudge", "Spatulate", "Dump", "Cauldron't", "Boxed Gloves", "Coup de Grace", "Landline", "Missed Score", "Elastic Spleen", "Trowel", "Grieve", "Lash", "Mallet", "Blood Stuck", "Shady Dice", "Jagged Shard", "Blood Yeet", "Illuminadd", "Stall of Mirrors"];
+	var goodset = ["Juggling Ball", "Gumball Machine", "Duplicate", "Subdivide", "Vise Grip", "Spatulasword", "Lollipop", "Table Slam", "Nudge", "Spatula", "Bump", "Cauldron", "Boxing Gloves", "Rusty Sword", "Telephone", "Missing Score", "Elastic Heart", "Shovel", "Lament", "Whip", "Hammer", "Blood Suck", "Shadow Dice", "Mirror Shard", "Blood Let", "Illuminate", "Hall of Mirrors"];
+	var badset = ["Smuggling Ball", "Stuck Gumball", "Derplicate", "Snubdivide", "Vide Grip", "Spatulatesword", "Lollitwop", "Table Scam", "Fudge", "Spatulate", "Dump", "Cauldron't", "Boxed Gloves", "Coup de Grace", "Landline", "Missed Score", "Elastic Spleen", "Trowel", "Grieve", "Lash", "Mallet", "Blood Stuck", "Shady Dice", "Jagged Shard", "Mirror Shred", "Illuminadd", "Stall of Mirrors"];
 	for(x in ["Boop", "Kapow"]){
 	  choice = rand(["Boxed Gloves", "Coup de Grace", "Landline", "Missed Score", "Elastic Spleen", "Trowel", "Grieve", "Lash", "Mallet", "Blood Stuck"]);
 	  Rules.substitute(x, choice);
@@ -248,14 +245,16 @@ if (self.level == 1){
 	  Rules.substitute(x + "+", choice + "+");
 	}
 	for(x in ["Shadow Dice", "Mirror Shard", "Blood Let", "Illuminate", "Hall of Mirrors"]){
-	  choiceset = ["Shadow Dice", "Mirror Shard", "Illuminate", "Hall of Mirrors", "Jack o' Lantern", "Magician's Secret", "Shattered Mirror"];
-	  for(i in 0...choiceset.length){if(choiceset[i] == x){choiceset.remove(x);}}
-	  choice = rand(choiceset);
-	  Rules.substitute(x, choice);
-	  Rules.substitute(x + "+", choice + "+");
+	  choiceset = ["Jack o' Lantern", "Magician's Secret", "Shattered Mirror"];
+	  if(rand([0 | 1 | 2 | 3]) == 0){
+		choice = rand(choiceset);
+		Rules.substitute(x, choice);
+		Rules.substitute(x + "+", choice + "+");
+	  }
 	}
 	Rules.substitute("Scathach", "Pumpkin Spice");
 	Rules.substitute("Fireman", "Demon");
 	Rules.substitute("Crystalina", "Mummy");
   }
 }
+runscript("diceydungeons/jesterpacks/ruleswaps");
