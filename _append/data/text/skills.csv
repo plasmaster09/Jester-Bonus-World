@@ -94,3 +94,4 @@ Magic Spanner,Combine random dice,var maxvalue = 6; for (i in 0...2) {var dic
 Snap!,Matchs are used for free,self.setvar(~mqjesterdeck_snapstyle~[;] ~cards~);
 Autoroll,Jackpot guaranteed,self.setvar(~mqrobotfakecpu_guaranteedjackpot~[;] 1);
 Possessive Pronoun,You really shouldn't see this.,
+Snap?,Discarding cards gives you dice this turn,Deck.snapstyle = ~dice~;

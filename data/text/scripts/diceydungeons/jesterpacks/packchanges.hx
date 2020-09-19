@@ -1,4 +1,3 @@
-trace(levelupselections);
 if (levelupselections.indexOf("boosterpack:Shield Bash,Deflect,Deflect") > -1){ 
   Rules.substitute("Backfire", "Iron Shield"); 
   Rules.substitute("Bop,Bop,Bop", rand(["Sweets,Deflect,Sweets", "Sweets,Shield Bash,Deflect", "Deflect,Deflect,Deflect"])); 
@@ -124,12 +123,12 @@ if (levelupselections.indexOf("boosterpack:Boolin Key,Jack o' Lantern,Jack o' La
   Rules.substitute("Bop,Bop,Bop", rand(["Illuminate,Jack o' Lantern,Illuminate", "Spectral Strike,Boo,Spectral Strike", "Boo,Spook,Boo"]));
 }
 
-if (levelupselections.indexOf("boosterpack:Banish,Hitodama,Hitodama") > -1){ 
+if (levelupselections.indexOf("boosterpack:Fool's Errand,Hitodama,Hitodama") > -1){ 
   Rules.substitute("Backfire", "Wispene Gas"); 
   Rules.substitute("Bop,Bop,Bop", rand(["Hitodama,Exorcise,Hitodama", "Banish,Hitodama,Banish", "Poof,Banish,Poof"]));
 }
 
-if (levelupselections.indexOf("boosterpack:Soul Fade,Spectral Strike,Spectral Strike") > -1){ 
+if (levelupselections.indexOf("boosterpack:Soul Fade,Attacktoplasm,Attacktoplasm") > -1){ 
   Rules.substitute("Backfire", "Spook"); 
   Rules.substitute("Bop,Bop,Bop", rand(["Spook,Boo,Spook", "Attacktoplasm,Spook,Attacktoplasm", "Boo,Spectral Strike,Boo"]));
 }
@@ -142,4 +141,54 @@ if (levelupselections.indexOf("boosterpack:Exorcise,Blurse,Blurse") > -1){
 if (levelupselections.indexOf("boosterpack:Wispene Gas,Pester,Pester") > -1){ 
   Rules.substitute("Backfire", "Chocolate Spookie"); 
   Rules.substitute("Bop,Bop,Bop", rand(["Treat,Pester,Treat", "Treat,Ectocookie,Treat", "Pester,Treat,Pester"]));
+}
+
+if (levelupselections.indexOf("boosterpack:Shielded Bash,Double Guard,Double Guard") > -1){ 
+  Rules.substitute("Backfire", "Irony Shield"); 
+  Rules.substitute("Bop,Bop,Bop", rand(["Expired Sweets,Double Guard,Expired Sweets", "Expired Sweets,Shielded Bash,Double Guard", "Double Guard,Double Guard,Double Guard"])); 
+} 
+
+if (levelupselections.indexOf("boosterpack:Ice Splatter,Sleet Clump,Sleet Clump") > -1){ 
+  Rules.substitute("Backfire", "Grieve"); 
+  Rules.substitute("Bop,Bop,Bop", rand(["Sleet Clump,Zapper,Sleet Clump", "Ouch,Frostbite,Ouch", "Ouch,Grieve,Ouch"])); 
+}
+
+if (levelupselections.indexOf("boosterpack:Deton'tor,Duotoxin,Duotoxin") > -1){ 
+  Rules.substitute("Backfire", "Declaw"); 
+  Rules.substitute("Bop,Bop,Bop", rand(["Duotoxin,Duotoxin,Duotoxin", "Duotoxin,Declaw,Expired Sweets", "Expired Sweets,Duotoxin,Expired Sweets"])); 
+}
+
+if (levelupselections.indexOf("boosterpack:Low Voltage,Zapper,Zapper") > -1){ 
+  Rules.substitute("Backfire", "Mallet"); 
+  Rules.substitute("Bop,Bop,Bop", rand(["Zapper,Mallet,Zapper", "Low Voltage,Flicker,Low Voltage"])); 
+}
+
+if (levelupselections.indexOf("boosterpack:Blame Blast,Flicker,Flicker") > -1){ 
+  Rules.substitute("Backfire", "Lash"); 
+  Rules.substitute("Bop,Bop,Bop", rand(["Flicker,Flicker,Flicker", "Zapper,Lash,Zapper", "Sleet Clump,Flicker, Sleet Clump"])); 
+}
+
+if (levelupselections.indexOf("boosterpack:Whyjinx,Slapstick,Slapstick") > -1){ 
+  Rules.substitute("Backfire", "Concen'tration"); 
+  Rules.substitute("Bop,Bop,Bop", rand(["Whyjinx,Cruel Mercy,Concen'tration", "Slapstick,Nojinx,Slapstick"])); 
+}
+
+if (levelupselections.indexOf("boosterpack:Falling Skull,Raspy Laugh,Raspy Laugh") > -1){ 
+  Rules.substitute("Backfire", "Raspy Laugh"); 
+  Rules.substitute("Bop,Bop,Bop", rand(["Raspy Laugh,Raspy Laugh,Raspy Laugh", "Panicked Laugh,Unfestation,Panicked Laugh"])); 
+}
+
+if (levelupselections.indexOf("boosterpack:Oof Oof Oof,Ruff Ruff Rage,Ruff Ruff Rage") > -1){ 
+  Rules.substitute("Backfire", "Yip Yip Nope"); 
+  Rules.substitute("Bop,Bop,Bop", rand(["Ruff Ruff Rage,Arf Arf Argh,Ruff Ruff Rage", "Ruff Ruff Rage,Yip Yip Nope,Ruff Ruff Rage"]));
+}
+
+if (levelupselections.indexOf("boosterpack:Voodoo Pin,Acupuncture,Acupuncture") > -1){ 
+  Rules.substitute("Backfire", "Spirit Prayer"); 
+  Rules.substitute("Bop,Bop,Bop", rand(["Hexed Needle,Accursed Needle,Hexed Needle", "U-Do Voodoo,Ritual Sacrifice,U-Do Voodoo", "Ominous Chant,Acupuncture,Ominous Chant"]));
+}
+
+if (levelupselections.indexOf("boosterpack:Boosterpack:Vootwo,Hexed Needle,Hexed Needle") > -1){ 
+  Rules.substitute("Backfire", "Accursed Needle"); 
+  Rules.substitute("Bop,Bop,Bop", rand(["Hexed Needle,Spirit Prayer,Hexed Needle", "Pressure Point,Voodoo Pin,Pressure Point", "U-Do Voodoo,Ritual Sacrifice,U-Do Voodoo"]));
 }
