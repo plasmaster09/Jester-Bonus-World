@@ -2,8 +2,8 @@
 A mod for Dicey Dungeons that improves and overhauls Jester's Bonus Round episode. 
 Instead of picking your Finale Card, you now pick your entire deck-
 and elements of your run like booster packs and item pools are changed based on your deck choice!
-(The decks are just InitialEquipment that give you the entire deck in a random order
-and delete themselves at the start of the first fight- it's the best I can do right now.)
+(The decks are just InitialEquipment that give you the deck in a random order
+and replace themselves with the finale card- it's the best I can do right now.)
 Specifically, picking your deck changes:
 
 -what booster pack reward choices you get at level 2
