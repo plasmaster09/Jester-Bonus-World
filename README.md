@@ -14,6 +14,8 @@ Specifically, picking your deck changes:
 
 -and for some specific decks, some other rule changes that you should see for yourself!
 
+New to this version is a brand-new revitalizing take on Bonus Round in the form of BBRJ Episode 2: Double Decker! Twice the decks, twice the fun!
+
 **Deck List**
 
 Currently there are ten decks:
@@ -37,6 +39,8 @@ Thief- it's an ordinary day for an ordinary thief. Problem is, you're a jester.
 Random- absolute random-card-copying chaos that needs to be seen to be believed.
 
 Spooky*^- inspired by the official Halloween Special mod, focuses on "spooky" statuses like Haunt.
+
+NC- like Jester episode 1 in Wisp's mod NCRMod.
 
 *Has a unique rule change.
 
