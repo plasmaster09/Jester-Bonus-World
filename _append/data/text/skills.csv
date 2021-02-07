@@ -95,3 +95,6 @@ Snap!,Matchs are used for free,self.setvar(~mqjesterdeck_snapstyle~[;] ~cards
 Autoroll,Jackpot guaranteed,self.setvar(~mqrobotfakecpu_guaranteedjackpot~[;] 1);
 Possessive Pronoun,You really shouldn't see this.,
 Snap?,Discarding cards gives you dice this turn,Deck.snapstyle = ~dice~;
+Foresight,Increase deck preview by 2 this turn.,Deck.lookahead += 2;
+Dice Tower Skill,bruh y u see dis,if(getstatusself(~edenmana~) > 0){removestatusself(~edenmana~); var max = getstatusself(~spellpower~); for(mydice in self.dicepool){if(mydice.available() && mydice.basevalue > max){max = mydice.basevalue;};}; var c = 0; for(x in self.dicepool){if(x.available()){x.animatereroll(max | self.screenposition() | c * 0.05); c++;}}} givedice(d);
+Dice Tower Skill 2,bruh y u see dis,if(getstatusself(~edenmana~) > 0){removestatusself(~edenmana~); var max = getstatusself(~spellpower~); for(mydice in self.dicepool){if(mydice.available() && mydice.basevalue > max){max = mydice.basevalue;};}; var c = 0; for(x in self.dicepool){if(x.available()){x.animatereroll(max | self.screenposition() | c * 0.05); c++;}}} givedice(d); givedice(d);
