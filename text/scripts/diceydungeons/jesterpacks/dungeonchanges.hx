@@ -211,13 +211,13 @@ if (self.level == 1){
 	Rules.substitutions.set("random","yep");
 	leveluprewards(2, "", loadtext("diceydungeons/jesterpacks/packs_random1"), 2);
 	leveluprewards(3, "erase");
-	leveluprewards(3, "Dice");
+	leveluprewards(3, "Equipment:Jester[]");
 	leveluprewards(4, "erase");
 	leveluprewards(4, loadtext("diceydungeons/jesterpacks/packs_random2"), 2);
 	leveluprewards(5, "erase");
 	leveluprewards(5, loadtext("diceydungeons/jesterpacks/packs_random3"), 2);
 	leveluprewards(6, "erase");
-	leveluprewards(6, "Dice");
+	leveluprewards(6, "Equipment:Jester[]");
 	Rules.substitute("Juggling Ball", "Call for Backup Inventor?");
 	Rules.substitute("Gumball Machine", "Call for Backup Inventor?");
 	Rules.substitute("Juggling Ball+", "Heroic Inventor?");

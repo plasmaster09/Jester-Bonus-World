@@ -47,6 +47,7 @@ var func3 = new hscript.Parser().parseString('trace(Rules.substitutions);
   }
   
   if (Rules.substitutions.exists("clairvoyant")){
+    Rules.enemyhpadjust *= 1.25;
 	for(x in["Call for Backup Thief", "Call for Backup Robot", "Call for Backup Witch", "Call for Backup Inventor", "Call for Backup Thief?", "Call for Backup Robot?", "Call for Backup Witch?", "Call for Backup Inventor?"]){cfbset.push("Equipment:" + x);}
 	packset.push("cv1");
     for(x in 0...2){dupeset.push(rand(["Boosterpack:Blender,Feather Arrow,Feather Arrow", "Boosterpack:Rainbow Crystal,Healing Crystal,Healing Crystal", "Boosterpack:Lojinx,Creep,Creep", "Boosterpack:Pollution,Pollution,Pollution", "Boosterpack:Sandstorm,Sandstorm,Sandstorm", "Boosterpack:Forecast,Forecast,Forecast", "Boosterpack:Acid Rain,Acid Rain,Acid Rain", "Boosterpack:Dense Fog,Dense Fog,Dense Fog", "Boosterpack:Hurricane,Hurricane,Hurricane", "Boosterpack:Thunder Storm,Thunder Storm,Thunder Storm", "Boosterpack:Heatwave,Heatwave,Heatwave", "Boosterpack:Snowstorm,Snowstorm,Snowstorm"]));}
@@ -67,8 +68,8 @@ var func3 = new hscript.Parser().parseString('trace(Rules.substitutions);
   
   if (Rules.substitutions.exists("random")){
 	packset.push("random1");
-	dupeset.push("Dice");
-	dupeset.push("Dice");
+	dupeset.push("Equipment:Jester[]");
+	dupeset.push("Equipment:Jester[]");
 	Rules.substitute("Bop,Bop,Bop", rand(["Call for Backup Inventor?,Call for Backup Inventor?,Call for Backup Inventor?", "Call for Backup Robot,Call for Backup Robot,Call for Backup Robot"]));
 	for(x in["Call for Backup Robot", "Call for Backup Inventor", "Call for Backup Inventor?"]){cfbset.push("Equipment:" + x);}
   }
