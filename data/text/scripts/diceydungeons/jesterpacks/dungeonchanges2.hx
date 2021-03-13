@@ -143,8 +143,8 @@ if (self.level == 1){
   if (levelupselections[0].split("Random Deck").length > 1){
 	Rules.substitutions.set("random","yep");
 	packset.push("random1");
-	dupeset.push("Dice");
-	dupeset.push("Dice");
+	dupeset.push("Equipment:Jester[]");
+	dupeset.push("Equipment:Jester[]");
 	ballset.push("Call for Backup Inventor?");
 	ballset.push("Call for Backup Inventor?");
 	for(x in ["Vise Grip", "Spatulasword", "Table Slam", "Lollipop", "Nudge", "Spatula", "Bump", "Cauldron", "Shadow Dice", "Mirror Shard", "Blood Let", "Illuminate", "Hall of Mirrors"]){
