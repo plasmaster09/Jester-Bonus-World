@@ -18,7 +18,7 @@ New to this version is a brand-new revitalizing take on Bonus Round in the form 
 
 **Deck List**
 
-Currently there are ten decks:
+Currently there are eleven decks:
 
 Classic- like Jester episode 1.
 
