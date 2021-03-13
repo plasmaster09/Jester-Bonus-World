@@ -3,5 +3,5 @@ Boosterpack:Fool's Errand,Hitodama,Hitodama
 Boosterpack:Soul Fade,Attacktoplasm,Attacktoplasm
 Boosterpack:Exorcise,Blurse,Blurse
 Boosterpack:Wispene Gas,Pester,Pester
-Boosterpack:Voodoo Pin,Acupuncture,Acupuncture
-Boosterpack:Vootwo,Hexed Needle,Hexed Needle
+Boosterpack:Voodice,U Do Voodoo,U Do Voodoo
+Boosterpack:Voodoom,Hexed Needle,Hexed Needle

@@ -1,9 +1,0 @@
-Boosterpack:Pollution,Pollution,Pollution
-Boosterpack:Sandstorm,Sandstorm,Sandstorm
-Boosterpack:Forecast,Forecast,Forecast
-Boosterpack:Acid Rain,Acid Rain,Acid Rain
-Boosterpack:Dense Fog,Dense Fog,Dense Fog
-Boosterpack:Hurricane,Hurricane,Hurricane
-Boosterpack:Thunder Storm,Thunder Storm,Thunder Storm
-Boosterpack:Heatwave,Heatwave,Heatwave
-Boosterpack:Snowstorm,Snowstorm,Snowstorm

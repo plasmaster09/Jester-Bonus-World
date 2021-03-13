@@ -1,5 +1,0 @@
-Boosterpack:Pocket Knife,Master Key,Master Key
-Boosterpack:Call for Backup Thief?,Pickpocket,Pickpocket
-Boosterpack:Poison Needle,Lockpick,Lockpick
-Boosterpack:Six Shooter,Spatula,Spatula
-Boosterpack:Grater,Poison Needle,Poison Needle

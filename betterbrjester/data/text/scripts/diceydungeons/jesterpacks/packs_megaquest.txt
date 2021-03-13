@@ -1,5 +1,0 @@
-Boosterpack:Repeater,Laser,Laser
-Boosterpack:Void Cannon,Antimatter,Antimatter
-Boosterpack:Plasma Cannon,Thruster,Thruster
-Boosterpack:Energy Drink,Accumulator,Accumulator
-Boosterpack:Armor Shard,Sweets,Sweets

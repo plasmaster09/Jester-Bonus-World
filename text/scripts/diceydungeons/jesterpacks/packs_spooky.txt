@@ -1,7 +1,0 @@
-Boosterpack:Boolin Key,Jack o' Lantern,Jack o' Lantern
-Boosterpack:Fool's Errand,Hitodama,Hitodama
-Boosterpack:Soul Fade,Attacktoplasm,Attacktoplasm
-Boosterpack:Exorcise,Blurse,Blurse
-Boosterpack:Wispene Gas,Pester,Pester
-Boosterpack:Voodice,U Do Voodoo,U Do Voodoo
-Boosterpack:Voodoom,Hexed Needle,Hexed Needle

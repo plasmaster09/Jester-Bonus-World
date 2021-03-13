@@ -1,5 +1,0 @@
-Boosterpack:Ice Shatter,Ice Shard,Ice Shard
-Boosterpack:Flame Blast,Burning Light,Burning Light
-Boosterpack:Detonator,Slime Ball,Slime Ball
-Boosterpack:High Voltage,Electric Shock,Electric Shock
-Boosterpack:Shield Bash,Magic Shield,Magic Shield

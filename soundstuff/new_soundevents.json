@@ -2316,7 +2316,7 @@
                     "max": 1,
                     "min": 0,
                     "random": false,
-                    "value": 1
+                    "value": 0
                 }
             }
         ]
@@ -2353,7 +2353,7 @@
                     "max": 1,
                     "min": 0,
                     "random": false,
-                    "value": 1
+                    "value": 0
                 }
             }
         ]
@@ -3339,7 +3339,7 @@
             }
         ]
     },
-    "enteranvil": {
+    "enteranvil1": {
         "changeparams": [
             {
                 "tag": "atmos",
@@ -3394,7 +3394,16 @@
                     "random": false,
                     "value": 1
                 }
-            },
+            }
+        ],
+        "stopsounds": [
+            {
+                "tag": "shoptheme"
+            }
+        ]
+    },
+    "enteranvil2": {
+        "playsounds": [
             {
                 "channel": 1,
                 "delay": 0.01,
@@ -3408,11 +3417,6 @@
                     "random": false,
                     "value": 1
                 }
-            }
-        ],
-        "stopsounds": [
-            {
-                "tag": "shoptheme"
             }
         ]
     },
@@ -3884,7 +3888,7 @@
             }
         ]
     },
-    "entershop": {
+    "entershop1": {
         "changeparams": [
             {
                 "tag": "atmos",
@@ -3939,7 +3943,16 @@
                     "random": false,
                     "value": 1
                 }
-            },
+            }
+        ],
+        "stopsounds": [
+            {
+                "tag": "shoptheme"
+            }
+        ]
+    },
+    "entershop2": {
+        "playsounds": [
             {
                 "channel": 1,
                 "delay": 0.01,
@@ -3954,14 +3967,9 @@
                     "value": 1
                 }
             }
-        ],
-        "stopsounds": [
-            {
-                "tag": "shoptheme"
-            }
         ]
     },
-    "entertradingpost": {
+    "entertradingpost1": {
         "changeparams": [
             {
                 "tag": "atmos",
@@ -4016,7 +4024,16 @@
                     "random": false,
                     "value": 1
                 }
-            },
+            }
+        ],
+        "stopsounds": [
+            {
+                "tag": "shoptheme"
+            }
+        ]
+    },
+    "entertradingpost2": {
+        "playsounds": [
             {
                 "channel": 1,
                 "delay": 0.01,
@@ -4030,11 +4047,6 @@
                     "random": false,
                     "value": 1
                 }
-            }
-        ],
-        "stopsounds": [
-            {
-                "tag": "shoptheme"
             }
         ]
     },
@@ -7172,6 +7184,70 @@
     "equipment_Cold Snap_upgraded_player": {
         "playevents": []
     },
+    "equipment_Cold War_downgraded_enemy": {
+        "playevents": [
+            {
+                "delay": 0.1,
+                "event": "_takedamage"
+            }
+        ]
+    },
+    "equipment_Cold War_downgraded_player": {
+        "playevents": [
+            {
+                "delay": 0.1,
+                "event": "_damage"
+            }
+        ]
+    },
+    "equipment_Cold War_enemy": {
+        "playevents": [
+            {
+                "delay": 0.1,
+                "event": "_takedamage"
+            },
+            {
+                "delay": 0.2,
+                "event": "_ice"
+            }
+        ]
+    },
+    "equipment_Cold War_player": {
+        "playevents": [
+            {
+                "delay": 0.1,
+                "event": "_damage"
+            },
+            {
+                "delay": 0.2,
+                "event": "_ice"
+            }
+        ]
+    },
+    "equipment_Cold War_upgraded_enemy": {
+        "playevents": [
+            {
+                "delay": 0.1,
+                "event": "_takedamage"
+            },
+            {
+                "delay": 0.2,
+                "event": "_ice"
+            }
+        ]
+    },
+    "equipment_Cold War_upgraded_player": {
+        "playevents": [
+            {
+                "delay": 0.1,
+                "event": "_damage"
+            },
+            {
+                "delay": 0.2,
+                "event": "_ice"
+            }
+        ]
+    },
     "equipment_Cold Wind_downgraded_enemy": {
         "playevents": [
             {
@@ -8773,32 +8849,16 @@
         "playevents": []
     },
     "equipment_Double Edge_enemy": {
-        "playevents": [
-            {
-                "event": "_heal"
-            }
-        ]
+        "playevents": []
     },
     "equipment_Double Edge_player": {
-        "playevents": [
-            {
-                "event": "_heal"
-            }
-        ]
+        "playevents": []
     },
     "equipment_Double Edge_upgraded_enemy": {
-        "playevents": [
-            {
-                "event": "_heal"
-            }
-        ]
+        "playevents": []
     },
     "equipment_Double Edge_upgraded_player": {
-        "playevents": [
-            {
-                "event": "_heal"
-            }
-        ]
+        "playevents": []
     },
     "equipment_Dragon's Tooth_downgraded_enemy": {
         "playevents": [
@@ -11741,6 +11801,22 @@
         ]
     },
     "equipment_Grand Finale_downgraded_player": {
+        "playevents": [
+            {
+                "delay": 0.1,
+                "event": "_damage"
+            }
+        ]
+    },
+    "equipment_Grand Finale_weakened_enemy": {
+        "playevents": [
+            {
+                "delay": 0.1,
+                "event": "_takedamage"
+            }
+        ]
+    },
+    "equipment_Grand Finale_weakened_player": {
         "playevents": [
             {
                 "delay": 0.1,
@@ -16265,6 +16341,30 @@
         ]
     },
     "equipment_Molotov Cocktail_upgraded_player": {
+        "playevents": [
+            {
+                "delay": 0.1,
+                "event": "_damage"
+            },
+            {
+                "delay": 0.2,
+                "event": "_fire"
+            }
+        ]
+    },
+    "equipment_Molotov Cocktail_downgraded_enemy": {
+        "playevents": [
+            {
+                "delay": 0.1,
+                "event": "_takedamage"
+            },
+            {
+                "delay": 0.2,
+                "event": "_fire"
+            }
+        ]
+    },
+    "equipment_Molotov Cocktail_downgraded_player": {
         "playevents": [
             {
                 "delay": 0.1,
@@ -24295,7 +24395,7 @@
                 "channel": 0,
                 "delay": 0,
                 "effect": "",
-                "file": "sfx/ui/gamepad/gamepad_backpack_move4",
+                "file": "sfx/ui/gamepad/gamepad_backpack_move",
                 "filter": "",
                 "loop": false,
                 "panning": {
@@ -27227,6 +27327,20 @@
                     "random": false,
                     "value": 1
                 }
+            }
+        ]
+    },
+	"chip": {
+        "playsounds": [
+            {
+                "file": "sfx/chip"
+            }
+        ]
+    },
+	"socket": {
+        "playsounds": [
+            {
+                "file": "sfx/socket"
             }
         ]
     }

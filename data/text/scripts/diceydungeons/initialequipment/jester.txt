@@ -4,7 +4,8 @@ InitialEquipment:Elemental Deck
 InitialEquipment:MegaQuest Deck
 InitialEquipment:Alt Timeline Deck
 InitialEquipment:Terrible Deck
-InitialEquipment:Patient Deck
+InitialEquipment:ClairVoyant Deck
 InitialEquipment:Thief Deck
 InitialEquipment:Random Deck
 InitialEquipment:Spooky Deck
+InitialEquipment:NC Deck

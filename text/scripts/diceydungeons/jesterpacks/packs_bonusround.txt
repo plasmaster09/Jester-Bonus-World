@@ -1,8 +1,0 @@
-Boosterpack:Hijinx,Slapsies,Slapsies
-Boosterpack:Flying Skull,Evil Laugh,Evil Laugh
-Boosterpack:Woof Woof Woof,Ruff Ruff Ruff,Ruff Ruff Ruff
-Boosterpack:Ice Shatter,Snowflake,Snowflake
-Boosterpack:Flame Blast,Spark,Spark
-Boosterpack:Detonator,Liquorice,Liquorice
-Boosterpack:High Voltage,Buzzer,Buzzer
-Boosterpack:Shield Bash,Deflect,Deflect
