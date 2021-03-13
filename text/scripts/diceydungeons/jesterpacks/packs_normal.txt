@@ -1,0 +1,5 @@
+Boosterpack:Ice Shatter,Snowflake,Snowflake
+Boosterpack:Flame Blast,Spark,Spark
+Boosterpack:Detonator,Liquorice,Liquorice
+Boosterpack:High Voltage,Buzzer,Buzzer
+Boosterpack:Shield Bash,Deflect,Deflect
