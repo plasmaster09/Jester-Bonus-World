@@ -57,7 +57,7 @@ Boosterpack:Blame Blast,Flicker,Flicker
 Boosterpack:Deton'tor,Duotoxin,Duotoxin
 Boosterpack:Low Voltage,Zapper,Zapper
 Boosterpack:Shielded Bash,Double Guard,Double Guard
-Boosterpack:Pocket Knife,Master Key,Master Key
+Boosterpack:Pocket Knife[],Master Key,Master Key
 Boosterpack:Call for Backup Thief?,Pickpocket,Pickpocket
 Boosterpack:Poison Needle,Lockpick,Lockpick
 Boosterpack:Six Shooter,Spatula,Spatula
