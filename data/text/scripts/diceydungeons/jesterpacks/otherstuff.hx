@@ -33,13 +33,13 @@ var func2 = new hscript.Parser().parseString('
   if (Rules.substitutions.exists("clairvoyant")){
     if(self.level < 6){
 	  leveluprewards(6, "erase");
-	  leveluprewards(6, "", loadtext("diceydungeons/jesterpacks/packs_cv3"), 6);
+	  leveluprewards(6, "", loadtext("diceydungeons/jesterpacks/packs_cv3"), 3);
 	  if(self.level < 3){
 		leveluprewards(3, "erase");
 		leveluprewards(3, "", loadtext("diceydungeons/jesterpacks/packs_cv2"), 3);
 		if(self.level < 2){
 		  leveluprewards(2, "erase");
-		  leveluprewards(2, "", loadtext("diceydungeons/jesterpacks/packs_cv1"), 2);
+		  leveluprewards(2, "", loadtext("diceydungeons/jesterpacks/packs_cv1"), 3);
 		}
 	  }
 	}
