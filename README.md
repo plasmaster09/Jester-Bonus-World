@@ -6,7 +6,7 @@ and elements of your run like booster packs and item pools are changed based on 
 and replace themselves with the finale card- it's the best I can do right now.)
 Specifically, picking your deck changes:
 
--what booster pack reward choices you get at level 2
+-what booster pack reward choices you get at level 2 (and sometimes other levels as well)
 
 -the items affected by your level 2 reward choice
 
