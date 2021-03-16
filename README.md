@@ -32,7 +32,7 @@ Alt Timeline- like Jester episode 1 in Green's mod Alternate Timeline.
 
 Terrible^- like Jester episode 1, but worse in unique ways that may be blessings in disguise.
 
-Patient*- like Jester episode 3 in AngelMoon's mod Cosmic Variations (everything is based around jinxes).
+Patient- like Jester episode 3 in AngelMoon's mod Cosmic Variations (everything is based around jinxes).
 
 Thief- it's an ordinary day for an ordinary thief. Problem is, you're a jester.
 
