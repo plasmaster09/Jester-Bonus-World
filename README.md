@@ -1,5 +1,5 @@
-# Better-BR-Jester
-A mod for Dicey Dungeons that improves and overhauls Jester's Bonus Round episode. 
+# Jester: Bonus World
+A mod for Dicey Dungeons that takes Jester's Bonus Round episode and expands upon it and new and interesting ways.
 Instead of picking your Finale Card, you now pick your entire deck-
 and elements of your run like booster packs and item pools are changed based on your deck choice!
 (The decks are just InitialEquipment that give you the deck in a random order
@@ -14,7 +14,7 @@ Specifically, picking your deck changes:
 
 -and for some specific decks, some other rule changes that you should see for yourself!
 
-New to this version is a brand-new revitalizing take on Bonus Round in the form of BBRJ Episode 2: Double Decker! Twice the decks, twice the fun!
+And that's not all- there's also Bonus World Episode 2: Double Decker! Twice the decks, twice the fun!
 
 **Deck List**
 
