@@ -30,7 +30,7 @@ if (self.level == 1){
   if (levelupselections.indexOf("InitialEquipment:Parallel Deck") > -1){
 	Rules.substitutions.set("parallel","yep");
 	Rules.enemyhpadjust = 1.1;
-	for(x in ["poison","fire","ice","shock","thorns","fury","lock","blind","confuse","weaken","silence","shield","dodge","survive","reequipnext","reduce","dice_trigger_1","dice_trigger_2","dice_trigger_3","dice_trigger_4","dice_trigger_5","dice_trigger_6","counter_1","counter_2","counter_3","counter_4","counter_5","counter_6","curse","haunted","voodoo"]){
+	for(x in ["poison","fire","ice","shock","thorns","fury","lock","blind","confuse","weaken","silence","shield","dodge","survive","reequipnext","reduce","dice_trigger_1","dice_trigger_2","dice_trigger_3","dice_trigger_4","dice_trigger_5","dice_trigger_6","counter_1","counter_2","counter_3","counter_4","counter_5","counter_6","curse","haunted","voodoo","vanish","ncr_vanish"]){
 	  Rules.setalternate(x);
 	}
 	leveluprewards(2, "", loadtext("diceydungeons/jesterpacks/packs_paralleluniverse"), 2);
